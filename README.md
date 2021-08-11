@@ -17,6 +17,7 @@ When Python evaluates any instance variable or a class variable, it first looks 
 
 #### __init__(self) is a like a built-in constructor in python class which defines how the class instance / object would be represented when it's called. It actually provides the `print() format` of the class instance.
 
+#### So, when you create a class, you often want to set the __str__(self) method in order to get more readable and understandable things to print out when you actually print out any particular instance. 
 
 
 
