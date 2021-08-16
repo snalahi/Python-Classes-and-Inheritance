@@ -19,6 +19,10 @@ When Python evaluates any instance variable or a class variable, it first looks 
 
 #### So, when you create a class, you often want to set the __str__(self) method in order to get more readable and understandable things to print out when you actually print out any particular instance. 
 
+#### __add / sub / multiply/ divide__(self) is a way of overwriting built-in methods. __something__() overwrites the built-in methods.
+
+#### Mind it, mentioning `self` inside a function or method definition implies that `self` is not an argument. That's the instance of the class upon which the method can be called as `instance of class (as self).method()`. That's it!!! Again mind it, `self` is just a keyword to represent the instance of the class upon which the method can be called.
+
 
 
 
