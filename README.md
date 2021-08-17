@@ -23,6 +23,8 @@ When Python evaluates any instance variable or a class variable, it first looks 
 
 #### Mind it, mentioning `self` inside a function or method definition implies that `self` is not an argument. That's the instance of the class upon which the method can be called as `instance of class (as self).method()`. That's it!!! Again mind it, `self` is just a keyword to represent the instance of the class upon which the method can be called.
 
+We have instance variables that belong to every particular instance and we have class variables which belong to a class.
+
 
 
 
