@@ -25,6 +25,10 @@ When Python evaluates any instance variable or a class variable, it first looks 
 
 We have instance variables that belong to every particular instance and we have class variables which belong to a class.
 
+When denoting / mentioning a global variable, always use all capital letters.
+
+The idea of inheritance is that you can define classes that inherit from other classes. So, in other words, they take all of the instance variables, all of the methods that that other class has, and then they can add more instance variables and more methods.
+
 
 
 
