@@ -1,6 +1,6 @@
 # In the definition of the inherited class, you only need to specify the methods and instance variables that are different from the parent class
 # (the parent class, or the superclass, is what we may call the class that is inherited from. In the example we’re discussing, Pet would be the
-# superclass of Dog or Cat). Here is an example. Say we want to define a class Cat that inherits from Pet.
+# superclass of Dog or Cat). Here is an example. Say we want to define classes Cat and Dog that inherit from Pet.
 
 from random import randrange
 
@@ -56,5 +56,33 @@ class Pet():
 class Cat(Pet): # the class name that the new class inherits from goes in the parentheses, like so.
     sounds = ['Meow']
 
-    def chasing_rats(self):
-        return "What are you doing, Pinky? Taking over the world?!"
+    def mood(self):
+        if self.hunger > self.hunger_threshold:
+            return "hungry"
+        if self.boredom <2:
+            return "grumpy; leave me alone"
+        elif self.boredom > self.boredom_threshold:
+            return "bored"
+        elif randrange(2) == 0:
+            return "randomly annoyed"
+        else:
+            return "happy"
+
+class Dog(Pet):
+    sounds = ['Woof', 'Ruff']
+
+    def mood(self):
+        if (self.hunger > self.hunger_threshold) and (self.boredom > self.boredom_threshold):
+            return "bored and hungry"
+        else:
+            return "happy"
+
+c1 = Cat("Fluffy")
+d1 = Dog("Astro")
+
+c1.boredom = 1
+print(c1.mood())
+c1.boredom = 3
+for i in range(10):
+    print(c1.mood())
+print(d1.mood())
