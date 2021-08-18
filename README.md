@@ -29,6 +29,8 @@ When denoting / mentioning a global variable, always use all capital letters.
 
 The idea of inheritance is that you can define classes that inherit from other classes. So, in other words, they take all of the instance variables, all of the methods that that other class has, and then they can add more instance variables and more methods.
 
+#### The superclass is the class that we are inheriting from. The subclass is the class where we are inheriting to. For instance, Pet is a superclass of Dog or Cat subclasses.
+
 
 
 
