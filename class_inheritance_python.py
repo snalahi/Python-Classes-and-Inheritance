@@ -1,7 +1,6 @@
-# In the definition of the inherited class, you only need to specify the methods and instance variables that are different from the parent class (the parent
-# class, or the superclass, is what we may call the class that is inherited from. In the example we’re discussing, Pet would be the superclass of Dog or
-# Cat)
-# Here is an example. Say we want to define a class Cat that inherits from Pet.
+# In the definition of the inherited class, you only need to specify the methods and instance variables that are different from the parent class
+# (the parent class, or the superclass, is what we may call the class that is inherited from. In the example we’re discussing, Pet would be the
+# superclass of Dog or Cat). Here is an example. Say we want to define a class Cat that inherits from Pet.
 
 from random import randrange
 
