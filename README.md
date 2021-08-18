@@ -31,6 +31,10 @@ The idea of inheritance is that you can define classes that inherit from other c
 
 #### The superclass is the class that we are inheriting from. The subclass is the class where we are inheriting to. For instance, Pet is a superclass of Dog or Cat subclasses.
 
+#### Testing a class definition involves creating instances, and invoking methods on those instances.
+
+#### `assert` keyword - The python assert keyword tests if a condition is true. If a condition is false, the program will stop with an optional message.
+
 
 
 
