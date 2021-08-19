@@ -35,6 +35,13 @@ The idea of inheritance is that you can define classes that inherit from other c
 
 #### `assert` keyword - The python assert keyword tests if a condition is true. If a condition is false, the program will stop with an optional message.
 
+### There are three types of exceptions or errors:
+=> Syntactic Error
+=> Runtime Error
+=> Semanctic Error
+
+#### `try: except` block can be used to handle exception while maintaining the flow of the program execution.
+
 
 
 
