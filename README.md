@@ -42,6 +42,8 @@ The idea of inheritance is that you can define classes that inherit from other c
 
 #### `try: except` block can be used to handle exception while maintaining the flow of the program execution.
 
+#### Short Tip: By the way, you can select a whole line by tapping 3 times on it!!!
+
 
 
 
