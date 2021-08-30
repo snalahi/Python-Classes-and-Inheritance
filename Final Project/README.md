@@ -12,8 +12,8 @@ This project will take you through the process of implementing a simplified vers
 
             Phrase: Whitney Houston’s I Will Always Love You
 
-    Players see the category and an obscured version of the phrase where every alphanumeric character in the phrase starts out as hidden
-    (using underscores: _):
+    Players see the category and an obscured version of the phrase where every alphanumeric character in the phrase starts
+    out as hidden (using underscores: _):
 
             Category: Artist & Song
 
@@ -27,13 +27,16 @@ This project will take you through the process of implementing a simplified vers
 
                     Guess any letter that hasn’t been guessed by typing a letter (a-z)
 
-                            Vowels (a, e, i, o, u) cost $250 to guess and can’t be guessed if the player doesn’t have enough money. All other letters are “free” to guess
+                            Vowels (a, e, i, o, u) cost $250 to guess and can’t be guessed if the player doesn’t have enough
+                            money. All other letters are “free” to guess
 
-                            The player can guess any letter that hasn’t been guessed and gets that cash amount for every time that letter appears in the phrase
+                            The player can guess any letter that hasn’t been guessed and gets that cash amount for every time
+                            that letter appears in the phrase
 
                             If there is a prize, the user also gets that prize (in addition to any prizes they already had)
 
-                            If the letter does appear in the phrase, the user keeps their turn. Otherwise, it’s the next player’s turn
+                            If the letter does appear in the phrase, the user keeps their turn. Otherwise, it’s the next
+                            player’s turn
 
                             Example: The user lands on $500 and guesses ‘W’
 
@@ -49,6 +52,7 @@ This project will take you through the process of implementing a simplified vers
 
             If the wheel lands on “lose a turn”, the player loses their turn and the game moves on to the next player
 
-            If the wheel lands on “bankrupt”, the player loses their turn and loses their money but they keep all of the prizes they have won so far.
+            If the wheel lands on “bankrupt”, the player loses their turn and loses their money but they keep all of the prizes
+            they have won so far.
 
     The game continues until the entire phrase is revealed (or one player guesses the complete phrase)
